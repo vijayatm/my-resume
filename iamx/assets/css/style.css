@@ -379,8 +379,11 @@ ul.list-check li::before {
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 20px;
+     letter-spacing: 2px;
 }
-
+.intro-sub span{
+    color: #68c3a3;
+}
 /* 
 SOCIAL ICON 
 -------------------------------------------*/
