@@ -41,10 +41,17 @@
     
 
 
-    $headers  = "From: " . $name . ' <' . $email . '>' . "\r\n";
-    $headers .= "Reply-To: ". $email . "\r\n";
+    $headers  = "From: " . $email . ' <' . $email . '>' . "\r\n";
+    $headers .= "Reply-To: "atmvijay1993@gmail.com"\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+
+// $headers = 'From: webmaster@example.com' . "\r\n" .
+//     'Reply-To: webmaster@example.com' . "\r\n" .
+//     'X-Mailer: PHP/' . phpversion();
+
+
 
 
     $templateTags =  array(
