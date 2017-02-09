@@ -302,7 +302,7 @@ jQuery(function ($) {
 
         $this.prevAll('.alert').remove();
 
-        $.post( $action, $data, function( data ) {
+        $.get( $action, $data, function( data ) {
 
             if( data.response=='error' ){
 
