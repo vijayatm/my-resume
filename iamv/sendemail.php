@@ -10,11 +10,11 @@
 
     $email_template = 'simple.html';
 
-    $subject    = strip_tags($_POST['subject']);
-    $email       = strip_tags($_POST['email']);
-    $phone      = strip_tags($_POST['phone']);
-    $name       = strip_tags($_POST['name']);
-    $message    = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
+    $subject    = strip_tags($_GET['subject']);
+    $email       = strip_tags($_GET['email']);
+    $phone      = strip_tags($_GET['phone']);
+    $name       = strip_tags($_GET['name']);
+    $message    = nl2br( htmlspecialchars($_GET['message'], ENT_QUOTES) );
     $result     = array();
 
 
